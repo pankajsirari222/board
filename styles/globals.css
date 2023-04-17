@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  height: 100vh;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43vw;
+  background-color: black;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  background-color: #f5f5f5;
+}
+
+/* Heading - Board */
+.heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: #ffffff;
+}
+
+/* Sign in with google and Apple TEXT */
+.head1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.head2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Sign in with Google, Apple buttons */
+.btn button {
+  background-color: white;
+  border: 0;
+  margin-right: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #858585;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* Form div */
+.form-div {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  background-color: #f5f5f5;
+}
+input:focus {
+  background-color: #EAEAEA;
+
+}
+
+label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Sign In button */
+.sign-in {
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* Forgot Password Text */
+.text1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #346bd5;
+}
+
+/* register here text */
+a {
+  color: #346bd4;
+  text-decoration: none;
+}
+
+.text2 {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+text-align: center;
+color: #858585;
+}
+
+/* transition in buttons */
+button {
+  transition: all 0.3s;
+}
+button:hover {
+  scale: 105%;
+  transition: all 0.3s;
+}
+button:active {
+  scale:100%;
+  transition: all 0.3s;
+
+}
